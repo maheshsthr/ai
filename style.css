@@ -173,7 +173,7 @@
 
         @media (max-width: 480px) {
             .container {
-                height: 100vh;
+                height: 92vh;
                 max-width: 100%;
                 border-radius: 0;
                 box-shadow: none;
