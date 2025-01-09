@@ -14,7 +14,7 @@
             flex-direction: column;
             min-height: 100vh;
             align-items: center;
-            justify-content: center;
+            
         }
 
         .container {
@@ -173,7 +173,7 @@
 
         @media (max-width: 480px) {
             .container {
-                height: 80vh;
+                height: 85vh;
                 max-width: 100%;
                 border-radius: 0;
                 box-shadow: none;
@@ -217,6 +217,13 @@
             }
             #user-input {
                 font-size: 18px;
+            }
+        }
+
+  @media (min-width:748px)
+        {
+            body {
+                justify-content: center;
             }
         }
     
