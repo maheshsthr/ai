@@ -173,10 +173,14 @@
 
         @media (max-width: 480px) {
             .container {
-                height: 92vh;
+                height: 100vh;
                 max-width: 100%;
                 border-radius: 0;
                 box-shadow: none;
+            }
+
+            body {
+                height:90vh;
             }
 
             .header {
